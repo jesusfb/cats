@@ -5,6 +5,7 @@ import { ApiProperty } from '@nestjs/swagger';
 @Entity()
 export class Product {
   @Column({ primary: true, generated: true })
+  
   @ApiProperty()
   id: number;
 

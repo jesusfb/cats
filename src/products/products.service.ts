@@ -12,8 +12,8 @@ export class ProductsService {
     private readonly  productRepository: Repository<Product>,
   ) {}
 
-  create(createUserDto: CreateProductDto) {
-    return this.productRepository.save(createUserDto);
+  create(createProductDto: CreateProductDto) {
+    return this.productRepository.save(createProductDto);
   }
 
   
